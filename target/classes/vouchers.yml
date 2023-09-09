@@ -1,0 +1,14 @@
+vouchers:
+  test:
+    #here is the commands for the voucher
+    command: 'give {NICK} dirt'
+    item:
+      #here is the name for the voucher
+      displayname: "&bTest Voucher"
+      #here is the material for the voucher
+      material: BOOK
+      #here is the lore for the voucher
+      lores:
+        - ""
+        - " &7Click the voucher to activate!"
+        - ""

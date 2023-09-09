@@ -1,0 +1,28 @@
+permission: 'admin.vouchers'
+redeem_voucher:
+  action: true
+  command: true
+messages:
+  #Types of messages:
+  #CHAT, TITLE, TITLE_SUBTITLE, SUBTITLE, ACTIONBAR, CHAT
+  no_permissions:
+    type: SUBTITLE
+    message: "&cYou don`t have permissions to do this!"
+  correct_use:
+    type: TITLE
+    message: "&cUsage&8: &7/voucher <list/give/gui/create> <name> <player>"
+  added_voucher:
+    type: ACTIONBAR
+    message: "&aVoucher {VOUCHER} has been added to your inventory!"
+  doesnt_exists:
+    type: CHAT
+    message: "&cVoucher {VOUCHER} doesnt exists!"
+  offline_player:
+    type: ACTIONBAR
+    message: "&cPlayer {PLAYER} is offline!"
+  added_voucher_other_player:
+    type: CHAT
+    message: "&aYou have added voucher {VOUCHER} to player {PLAYER}!"
+  use_voucher:
+    type: TITLE
+    message: "&aYou have redeemed {VOUCHER} voucher!"

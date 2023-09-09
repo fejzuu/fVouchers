@@ -1,0 +1,17 @@
+name: fVouchers
+version: '1.0-SNAPSHOT'
+main: org.fejzu.vouchers.Plugin
+api-version: '1.16'
+
+author: fejzu
+website: www.fejzu.com
+
+softdepend:
+  - PlaceholderAPI
+commands:
+  vouchers:
+  use:
+    aliases:
+      - book
+      - ksiazka
+      - voucher
